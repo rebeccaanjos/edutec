@@ -11,6 +11,7 @@
     --white: #FFFFFF;
 }
 
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -25,7 +26,7 @@ nav a {
     font-weight: bold;
     font-size: 24px;
 
-    padding: 77px 85px;
+    padding: 50px 85px;
     text-decoration: none;
 }
 
@@ -55,11 +56,9 @@ main {
     border-radius: 50px;
     height: 760px;
     width: 1203px;
-
 }
 
 .img {
-    
     position: relative;
     display: inline-block;
         
@@ -70,16 +69,19 @@ main {
 
 }
 
+
+
 .yt {
-    position: relative;
-    left: 13rem; /* Move o botão para o lado esquerdo da imagem */
-    bottom: -10px; /* Alinha o botão no fundo da imagem */
+    position: absolute;
+    left:82%;
+    transform: translateY(5%);
+    bottom: -5px;
 
     cursor: pointer;
 }
 
 
-img .leao{
+img .imagem{
     width: 500px;
     height: 258px;
 }
@@ -91,6 +93,7 @@ img .yt {
     display: flex;
     justify-content: flex-end;
 
+
 }
 
 
@@ -99,7 +102,7 @@ img .yt {
     justify-content: space-between;
 
 
-    margin-top: 2rem;
+    margin-top: 3%;
     gap: 70px;
     margin: 90px;
 }
@@ -117,7 +120,21 @@ p {
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 24px;
+    margin-top: 10px;
+
 }
+
+ul {
+    display: block; 
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+
+
+
 
 .seta {
     position: absolute;
@@ -125,6 +142,16 @@ p {
 }
 
 .seta img {
+    width: 77px;
+    height: 76px;
+}
+
+.seta-voltar {
+    position: absolute;
+    margin-right: 90%;
+}
+
+.seta-voltar img {
     width: 77px;
     height: 76px;
 }
