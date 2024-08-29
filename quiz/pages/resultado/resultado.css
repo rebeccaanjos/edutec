@@ -46,8 +46,8 @@ body {
 main {
     background-color: var(--azul-background);
     border-radius: 50px;
-    height: 760px;
-    width: 1203px;
+    height: 626px;
+    width: 1076px;
 
     display: flex;
     justify-content: center;
@@ -56,24 +56,32 @@ main {
 }
 
 h1 {
+    font-family: 'Staatliches';
+    font-weight: 100;
     font-size: 50px;
     margin-bottom: 25px;
 }
 
 .pontuacao strong {
+    font-family: 'Inter';
+    font-weight: bold;
     font-size: 128px;
 }
 
 .pontuacao p {
+    font-family: 'Inter';
+    font-weight: bold;
     font-size: 24px;
 }
 
 button {
     background-color: var(--cinza);
+    border: none;
     border-radius: 35px;
 
+    font-family: 'Inter';
     font-size: 24px;
-    font-weight: 700;
+    font-weight: bold;
 
     width: 375px;
     height: 85px;

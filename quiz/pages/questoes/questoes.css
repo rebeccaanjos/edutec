@@ -103,8 +103,9 @@ main {
 }
 
 .barra_progresso {
+    width: 130vh;
     background: var(--cinza);
-    height: 24px;
+    height: 25px;
     padding: 6px;
     border-radius: 999px;
     margin-bottom: 3rem;

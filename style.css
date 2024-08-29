@@ -216,7 +216,7 @@ input::placeholder, textarea::placeholder {
     bottom: -20px; 
 
     cursor: pointer;
-    
+    border: none;
     padding: 5px 10px;
 
     font-family: 'Raleway';
