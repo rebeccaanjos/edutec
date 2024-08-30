@@ -76,10 +76,6 @@ nav img {
 } 
 
 
-.divisao {
-    background-color: var(--verde-claro);
-    height: 514px;
-}
 
 .faq {
     background-color: var(--azul-escuro);
@@ -87,7 +83,9 @@ nav img {
     
     display: flex;
     justify-content: space-between; 
-    align-items: center;
+    align-items: center; 
+    
+
 }
 
 .faq p{
