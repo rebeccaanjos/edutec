@@ -75,6 +75,23 @@ nav img {
 
 } 
 
+.pginicial button {
+    background-color: var(--azul-escuro);
+    border-radius: 50px;
+    border: none;
+    padding: 20px 35px;
+    
+    
+    color: var(--white);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 24px;
+
+    margin-top: 50px;
+    
+}
+
+
 
 
 .faq {
