@@ -58,10 +58,20 @@ nav img {
 }
 
 main {
-    height: 100vh;
+    background-color: #131B25;
+    border-radius: 50px;
+    height: 450px;
+    width: 850px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.cadastro {
+.container{
     background-image: url(/imgs/background.png);
     background-size: cover;
     width: 100%;
@@ -69,26 +79,16 @@ main {
 
     margin-top: 11.5rem;
 
+    display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+    height: 80.5vh;
 }
 
-.cadastro p {
-    color: var(--white);
-    font-family: 'Raleway';
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 53px;
-}
-
-.cadastro a {
-    color: var(--azul-claro);
-    text-decoration: none;
-}
-
-.cadastro button {
+.container button {
     background-color: var(--cinza);
     border: none; 
     cursor: pointer;  
@@ -105,63 +105,54 @@ main {
     
 }
 
-.cadastro button:hover {
+.container button:hover {
     background-color: #b9b8b8;
 }
 
-.cadastro form {
-    margin-top: 2rem;
-
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.container p {
+    color: var(--white);
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 53px;
 }
-  
-.cadastro h1{
-    margin-top: 5rem;
+
+.container a {
+    color: var(--azul-claro);
+    text-decoration: none;
+}
+
+main h1 {
+    color: var(--white);
     font-family: 'Staatliches';
     font-weight: 100;
     font-size: 50px;
     text-align: center;
-}
-  
-
-main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    margin-bottom: 3rem;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  form ::placeholder {
-    font-family: 'Inter';
-    font-weight: bold;
+main form h1{
+    padding-bottom: 4rem;
+}
+
+main form input, textarea {
+        padding: 5px 10rem;
     
-    color: var(--white);
-  }
-  
- main input {
-    padding: 25px ;
-    width: 50%;
-    border: none;
-    border-radius: 35px;
-    background: #131B25;
-    color: #fff;
-    font-size: 20px;
+        width: 100%;
+        margin-right: 4rem;
+        margin-bottom: 30px; 
+        padding: 15px;
+        background-color: #131B25;
+        border: none;
+        border-bottom: 1px solid var(--white);
+        color: #ffffff;
     
-  }
- 
-  main form p {
-    font-size: 14px;
-  }
-  
-  main form p a {
-    color: #00bcd4;
-    text-decoration: none;
-  }
+        font-family: 'Open Sans';
+        font-weight: mixed;
+        font-size: 20px;
+       
+    }
+    
+input::placeholder, textarea::placeholder {
+        color: #ffffff;
+}
