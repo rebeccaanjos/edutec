@@ -112,7 +112,7 @@ function validarResposta() {
 function finalizar() {
     localStorage.setItem("pontos", pontos)
 
-    window.location.href = "../resultado/resultado.html"
+    window.location.href = "../ranking/ranking.html"
     event.preventDefault();
 }
 
